@@ -154,5 +154,6 @@ async function mergeResultBundle(
     silent: true
   }
 
+  console.log(args)
   await exec.exec('xcrun', args, options)
 }
